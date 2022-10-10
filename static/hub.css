@@ -9,5 +9,6 @@
 }
 
 .titular {
-    font-size: 5vmin;
+    font-size: 8vmin;
 }
+@media (max-device-width: 576px) {
