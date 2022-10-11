@@ -1,7 +1,5 @@
 .bboy {
     background-color: #202226;
-    height: max-content;
-    width: max-content;
 }
 .typicaltexties {
     color: white;
@@ -10,5 +8,28 @@
 
 .titular {
     font-size: 8vmin;
+    width: max
+}
+.subtitular {
+    font-size: 3vmin;
 }
 @media (max-device-width: 576px) {
+    .titular {
+        font-size: 10vw;
+    }
+}
+.topbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+body {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+html {
+    width: 100%;
+    height: 100%
+}
